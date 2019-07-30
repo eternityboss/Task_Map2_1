@@ -22,7 +22,7 @@ int main()
 	RC.ReadFile("test.stl");
 	RC.printASCIIfile();
 	RC.printBinaryfile();
-	cout << "123面片数：" << RC.Numtri() << endl;
+	cout << "面片数：" << RC.Numtri() << endl;
 	cout << "节点数：" << RC.Numtri1() << endl;
 	end = clock();
 	ret = double(end - begin) / CLOCKS_PER_SEC;
